@@ -11,7 +11,8 @@
     var settings = $.extend({
       href :  null,
       text : null,
-      target : '_self'
+      target : '_self',
+      color : '#000000'
     }, options);
 
     // Validation
@@ -26,7 +27,7 @@
       if (settings.text === null) {
         settings.text = object.text();
       }
-      object.wrap('<a target="' + settings.target + '" href="' + settings.href + '"></a>').text(settings.text);
+      object.wrap('<a style="color: ' + settings.color + ';" target="' + settings.target + '" href="' + settings.href + '"></a>').text(settings.text);
     });
   } 
 }(jQuery));
