@@ -1,0 +1,35 @@
+{
+    "name": "linkIt",
+    "title": "LinkIt jQuery Plugin",
+    "description": "Simple plugin to convert any element into a link.",
+    "keywords": [
+        "link",
+        "html",
+        "content"
+    ],
+    "version": "0.1.0",
+    "author": {
+        "name": "James Felz",
+        "url": "http://www.jamesfelz.com"
+    },
+    "maintainers": [
+        {
+            "name": "James Felz",
+            "email": "jamesfelz@gmail.com",
+            "url": "http://www.jamesfelz.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/jquery/jquery-color/issues",
+    "homepage": "https://github.com/jquery/jquery-color",
+    "docs": "https://github.com/jquery/jquery-color",
+    "download": "http://code.jquery.com/#color",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
